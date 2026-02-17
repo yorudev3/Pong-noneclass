@@ -7,4 +7,4 @@ olhoEsquerdoX = 246;
 olhoEsquerdoY = 130;   
 
 olhoDireitoX = 326;    
-olhoDireitoY = 130;    
+olhoDireitoY = 130;

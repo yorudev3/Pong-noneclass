@@ -6,3 +6,5 @@ velMax = 3;
 
 x = xstart;
 y = ystart;
+
+tempoAntesDeVoltar = 0;

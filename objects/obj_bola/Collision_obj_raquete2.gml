@@ -3,3 +3,5 @@ move_bounce_solid(true);
 vel += bounceSpd;
 
 audio_play_sound(snd_boing, 1, 0, 1, 0, 0.8);
+
+global.lastHit = 2;

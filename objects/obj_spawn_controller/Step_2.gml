@@ -1,0 +1,1 @@
+powerupActive = instance_exists(obj_powerup_parent);

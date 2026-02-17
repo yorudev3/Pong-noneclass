@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "scrpt_start",
+  "name": "scr_chance",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {

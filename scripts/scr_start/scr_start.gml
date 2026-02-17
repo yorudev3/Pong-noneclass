@@ -17,3 +17,7 @@ global.textoBotao = "Player vs Player";
 global.team1Win = false;
 
 global.team2Win = false;
+
+global.lastHit = 0;
+
+global.canSpawnPU = false;
