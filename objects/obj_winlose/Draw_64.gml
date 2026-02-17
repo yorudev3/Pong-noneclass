@@ -23,21 +23,21 @@ var _base_y = 190;
 
 if (global.team1Win) {
     draw_set_color(c_blue);
-    draw_text(_base_x, _base_y, "O PLAYER 1");
+    draw_text(_base_x, _base_y, " PLAYER 1");
     // Aplica o efeito WAVE na segunda linha
-    draw_text_efeito(_base_x, _base_y + 40, "VENCEU!", "venceu");
+    draw_text_efeito(_base_x, _base_y + 40, "     WON!", "venceu");
 } 
 else if (global.twoPlayers and global.team2Win) {
     draw_set_color(c_blue);
     draw_text(_base_x, _base_y, "O PLAYER 2");
-    draw_text_efeito(_base_x, _base_y + 40, "VENCEU!", "venceu");
+    draw_text_efeito(_base_x, _base_y + 40, "     WON!", "venceu");
 } 
 else {
     draw_set_color(c_red);
-    draw_text(_base_x, _base_y, "VOCE");
+    draw_text(_base_x, _base_y, "YOU");
     // Aplica o efeito SHAKE na segunda linha
-    draw_text_efeito(_base_x, _base_y + 40, "PERDEU...", "perdeu");
-    draw_text_transformed(_base_x, _base_y + 83, "TENTE NOVAMENTE", 0.67, 0.67, 0);
+    draw_text_efeito(_base_x, _base_y + 40, "LOST...", "perdeu");
+    draw_text_transformed(_base_x, _base_y + 83, "TRY AGAIN", 0.67, 0.67, 0);
 }
 
 // Reseta a cor para não afetar outros objetos
