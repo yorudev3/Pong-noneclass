@@ -14,17 +14,6 @@ if (global.gameReset == true and global.twoPlayers) {
 	vel = 2;
 }
 
-if (global.twoPlayers) exit;
-
-vspeed = global.velYBola;
-
-if (vspeed <= -velMax) {
-	vspeed = -velMax
-} 
-if (vspeed >= velMax) {
-	vspeed = velMax
-}
-
 if (tempoAntesDeVoltar > 0) {
     tempoAntesDeVoltar--;
     exit;
@@ -38,3 +27,21 @@ if (image_yscale > 1) {
 
 // Corrige imprecisões
 if (abs(image_yscale - 1) < 0.005) image_yscale = 1;
+
+sprite_index = global.skins[global.indiceSkinJogador2];
+
+
+
+
+
+
+if (global.twoPlayers) exit;
+
+vspeed = global.velYBola;
+
+if (vspeed <= -velMax) {
+	vspeed = -velMax
+} 
+if (vspeed >= velMax) {
+	vspeed = velMax
+}

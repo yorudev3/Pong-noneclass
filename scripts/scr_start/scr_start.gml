@@ -21,3 +21,9 @@ global.team2Win = false;
 global.lastHit = 0;
 
 global.canSpawnPU = false;
+
+global.skins = [spr_raquete, spr_raquete_blue, spr_raquete_purple, spr_raquete_yellow];
+global.totalSkins = array_length(global.skins);
+
+global.indiceSkinJogador1 = 0;
+global.indiceSkinJogador2 = 0;

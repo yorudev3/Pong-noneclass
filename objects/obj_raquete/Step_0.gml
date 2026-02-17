@@ -22,3 +22,5 @@ if (image_yscale > 1) {
 
 // Corrige imprecisões
 if (abs(image_yscale - 1) < 0.005) image_yscale = 1;
+
+sprite_index = global.skins[global.indiceSkinJogador1];

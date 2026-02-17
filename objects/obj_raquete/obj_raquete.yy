@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_raquete",
   "spriteId": {
-    "name": "spr_raquete_player",
-    "path": "sprites/spr_raquete_player/spr_raquete_player.yy",
+    "name": "spr_raquete_purple",
+    "path": "sprites/spr_raquete_purple/spr_raquete_purple.yy",
   },
   "solid": true,
   "visible": true,
@@ -33,6 +33,7 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":4,"eventType":7,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
